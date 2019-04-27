@@ -1,0 +1,50 @@
+#myProgress {
+    width: 100%;
+    background-color: grey;
+  }
+  
+  #myBar {
+    width: 80%;
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: white; 
+  }
+  #myBar1 {
+    width: 20%;
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: white; 
+  }
+  #myBar2 {
+    width: 40%;
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: white; 
+  }
+
+.cd-top{
+    position: fixed;
+    bottom: 25px;
+    right: 30px;
+    background-color: #666666;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    transition:  all .3s;
+    color: white;
+    opacity: 0;
+    text-align: center;
+    &:hover{
+      background-color: #d6b161;
+      color: black;
+    }
+}
+.cd-top.cd-top--show{
+    opacity: 1;
+}

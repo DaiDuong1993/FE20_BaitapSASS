@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.header .logo {
+  flex-grow: 1; }
+  .header .logo .navbar-brand img {
+    width: 110px; }
+.header .categories {
+  flex-grow: 1;
+  font-size: 13px;
+  color: #505763;
+  font-weight: normal; }
+.header .input-search {
+  flex-grow: 5; }
+  .header .input-search .form-control {
+    background-color: rgba(20, 23, 28, 0.05);
+    border: none;
+    transition: none; }
+    .header .input-search .form-control:focus {
+      box-shadow: none;
+      background-color: #fff;
+      border: 1px solid #cacbcc;
+      border-right: none; }
+      .header .input-search .form-control:focus + .input-group-prepend .input-group-text {
+        background-color: #fff;
+        border: 1px solid #cacbcc;
+        border-left: none; }
+      .header .input-search .form-control:focus + .input-group-prepend:hover .input-group-text {
+        background-color: #ec5252;
+        color: #fff; }
+  .header .input-search .input-group-prepend .input-group-text {
+    background-color: rgba(20, 23, 28, 0.05);
+    border: none;
+    color: #ec5252; }
+  .header .input-search .input-group-prepend:hover .input-group-text {
+    background-color: #ec5252;
+    color: #fff; }
+@media screen and (max-width: 1200px) {
+  .header .navbar-nav .business, .header .navbar-nav .teach {
+    display: none; } }
+@media screen and (max-width: 768px) {
+  .header .categories, .header .input-search {
+    display: none; } }
+
+.header__content .business, .header__content .teach {
+  color: #505763;
+  font-size: 13px;
+  font-weight: normal; }
+.header__content .nav-item {
+  padding: 3px 8px; }
+  .header__content .nav-item:not(:last-child):hover {
+    background-color: rgba(20, 23, 28, 0.05); }
+.header__content .header-icon {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-items: center; }
+
+.btn--white {
+  color: #a1a7b3;
+  background-color: #fff;
+  border: 1px solid #29303b; }
+  .btn--white:hover {
+    background-color: #fff;
+    color: #29303b !important; }
+
+.btn--red {
+  color: #fff;
+  background-color: #ec5252;
+  border: 1px solid #ec5252; }
+  .btn--red:hover {
+    background-color: #521822;
+    color: #fff !important; }
+
+/*# sourceMappingURL=main.css.map */

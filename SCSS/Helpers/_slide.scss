@@ -1,0 +1,81 @@
+.showcase{
+    text-align: center;
+    .showcase__info{
+        margin: 50px 0;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        
+        h3::after{
+            position: absolute;
+            bottom: -2px;
+            left: 50%;
+            width: 60px;
+            height: 2px;
+            margin-left: -31px;
+            content: "";
+            background: #595959;
+        }
+        
+    }
+    .slide{
+        .gallerybtn{
+            margin-bottom: 50px;
+            .btn{
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                font-size: 14px;
+                color: #a9a8a8;
+                border: none;
+                outline: none;
+                padding: 0px 16px;
+                color: #BCBBBB;
+                cursor: pointer;
+               
+                &:hover {
+                    color: black;
+                    box-shadow: none;
+                }
+  
+                
+                 &.active {
+                    box-shadow: none;
+                    color: black;
+                }
+            }
+            
+        }
+
+    }
+    
+}
+
+  .column {
+    float: left;
+    width: 25%;
+    display: none; /* Hide columns by default */
+    .content {
+        background-color: white;
+        padding: 0px;
+        img{
+            width: 100%;
+            overflow: hidden;
+        }
+      }
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .show {
+    display: block;
+  }
+  
+
+  
+  
+  
+  
